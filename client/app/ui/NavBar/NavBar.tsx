@@ -16,7 +16,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="flex bg-slate-100">
+      <nav className="flex bg-orange-200">
         <button onClick={handleOpen}>
           <Image
             src={isOpen ? arrowUp : menuLogo}
@@ -27,9 +27,9 @@ export default function NavBar() {
         </button>
       </nav>
       <nav
-        className={clsx("flex bg-slate-200 transition-all", {
-          block: isOpen === true,
-          hidden: isOpen === false,
+        className={clsx("flex bg-orange-100", {
+          block: isOpen,
+          hidden: !isOpen,
         })}
       >
         <ul className="flex flex-col font-bold justify-center items-center p-2 w-full [&>li>a:focus]:text-red-600">
