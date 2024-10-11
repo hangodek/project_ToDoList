@@ -1,23 +1,19 @@
 package main
 
 import (
-	"net/http"
-
 	"github.com/labstack/echo/v4"
-
-	"myapp/controller"
+	"myapp/cmd/handlers"
+	"myapp/cmd/storage"
 )
 
 func main() {
 	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, Worldddd!")
-	})
 
-	e.GET("/another", controller.GetAnotherPageWithoutName)
-	e.GET("/another/:name", controller.GetAnotherPageWithName)
-	e.POST("/another", controller.PostAnotherPageWithoutName)
+	e.GET("/", handlers.Home)
 
-	e.Logger.Fatal(e.Start(":1323"))
+	storage.InitDB()
 
+	e.POST("/list", handlers.CreateList)
+
+	e.Logger.Fatal(e.Start(":8081"))
 }

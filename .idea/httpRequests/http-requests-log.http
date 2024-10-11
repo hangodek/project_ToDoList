@@ -1,0 +1,40 @@
+POST http://localhost:8081/list
+Content-Type: application/json
+Content-Length: 32
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Ngangkat Jemuran"
+}
+
+<> 2024-10-11T212123.201.json
+
+###
+
+POST http://localhost:8081/list
+Content-Type: application/json
+Content-Length: 32
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Ngangkat Jemuran"
+}
+
+<> 2024-10-11T211956.500.json
+
+###
+
+GET http://localhost:8081
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-10-11T211449.200.txt
+
+###
+

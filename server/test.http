@@ -1,0 +1,13 @@
+POST http://localhost:8081/list
+Content-Type: application/json
+
+{
+  "text": "Ngangkat Jemuran"
+}
+
+###
+GET http://localhost:8081
+Accept: application/json
+
+###
+
