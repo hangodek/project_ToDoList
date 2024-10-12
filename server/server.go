@@ -14,6 +14,8 @@ func main() {
 	storage.InitDB()
 
 	e.POST("/list", handlers.CreateList)
+	e.PUT("/list/:id", handlers.UpdateList)
+	e.DELETE("/list/:id", handlers.DeleteList)
 
 	e.Logger.Fatal(e.Start(":8081"))
 }

@@ -3,6 +3,7 @@ package repositories
 import (
 	"myapp/cmd/models"
 	"myapp/cmd/storage"
+	"time"
 )
 
 func CreateList(list models.List) (models.List, error) {
@@ -14,4 +15,33 @@ func CreateList(list models.List) (models.List, error) {
 		return list, err
 	}
 	return list, err
+}
+
+func UpdateList(list models.List, id int) (models.List, error) {
+	db := storage.GetDB()
+	sqlStatement := `
+	UPDATE todolist
+	SET text = $2, updated_at = $3
+	WHERE id = $1
+	RETURNING id`
+	err := db.QueryRow(sqlStatement, id, list.Text, time.Now()).Scan(&list.Id)
+	if err != nil {
+		return models.List{}, err
+	}
+	list.Id = id
+	return list, nil
+}
+
+func DeleteList(id int) (int, error) {
+	db := storage.GetDB()
+	sqlStatement := `
+	DELETE FROM todolist
+	WHERE id = $1
+	RETURNING id`
+	var deletedId int
+	err := db.QueryRow(sqlStatement, id).Scan(&deletedId)
+	if err != nil {
+		return 0, err
+	}
+	return deletedId, nil
 }

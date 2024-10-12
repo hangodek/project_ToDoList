@@ -1,3 +1,162 @@
+DELETE http://localhost:8081/list/4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-12T111028.200.json
+
+###
+
+PUT http://localhost:8081/list/4
+Content-Type: application/json
+Content-Length: 20
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Bruh"
+}
+
+<> 2024-10-12T111021.200.json
+
+###
+
+POST http://localhost:8081/list
+Content-Type: application/json
+Content-Length: 32
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Ngangkat Jemuran"
+}
+
+<> 2024-10-12T111007.201.json
+
+###
+
+GET http://localhost:8081
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-10-12T110934.200.txt
+
+###
+
+DELETE http://localhost:8081/list/3
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+PUT http://localhost:8081/list/2
+Content-Type: application/json
+
+{
+  "text": "Bruh"
+}
+
+<> 2024-10-12T110924.200.json
+
+###
+
+DELETE http://localhost:8081/list/2
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+PUT http://localhost:8081/list/2
+Content-Type: application/json
+
+{
+  "text": "Bruh"
+}
+
+<> 2024-10-12T110906.200.json
+
+###
+
+PUT http://localhost:8081/list/2
+Content-Type: application/json
+Content-Length: 20
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Bruh"
+}
+
+<> 2024-10-11T214447.200.json
+
+###
+
+PUT http://localhost:8081/list/3
+Content-Type: application/json
+Content-Length: 25
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "EHek Ehek"
+}
+
+<> 2024-10-11T214427.200.json
+
+###
+
+PUT http://localhost:8081/list/2
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Jadi Ngangkat Besi"
+}
+
+<> 2024-10-11T214407.200.json
+
+###
+
+POST http://localhost:8081/list
+Content-Type: application/json
+Content-Length: 32
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Ngangkat Jemuran"
+}
+
+<> 2024-10-11T212625.201.json
+
+###
+
+POST http://localhost:8081/list
+Content-Type: application/json
+Content-Length: 32
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "text": "Ngangkat Jemuran"
+}
+
+<> 2024-10-11T212609.500.json
+
+###
+
 POST http://localhost:8081/list
 Content-Type: application/json
 Content-Length: 32

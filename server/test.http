@@ -1,3 +1,14 @@
+DELETE http://localhost:8081/list/4
+
+###
+PUT http://localhost:8081/list/4
+Content-Type: application/json
+
+{
+  "text": "Bruh"
+}
+
+###
 POST http://localhost:8081/list
 Content-Type: application/json
 
