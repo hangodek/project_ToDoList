@@ -1,7 +1,7 @@
-DELETE http://localhost:8081/list/4
+DELETE http://localhost:8080/list/4
 
 ###
-PUT http://localhost:8081/list/4
+PUT http://localhost:8080/list/4
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8081/list
+POST http://localhost:8080/list
 Content-Type: application/json
 
 {
@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8081
+GET http://localhost:8080
 Accept: application/json
 
 ###

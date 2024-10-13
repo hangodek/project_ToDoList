@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>759</IntrospectionStateNumber>
+      <IntrospectionStateNumber>818</IntrospectionStateNumber>
       <ServerVersion>16.4</ServerVersion>
-      <StartupTime>1728642529</StartupTime>
+      <StartupTime>1728803219</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -704,7 +704,6 @@ true posixrules
 13256||10|C|G
 13256||-9223372036854775808|U|G
 13256||10|U|G</Grants>
-      <IntrospectionStateNumber>745</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -718,7 +717,7 @@ true posixrules
 13256||10|C|G
 13256||-9223372036854775808|U|G
 13256||10|U|G</Grants>
-      <IntrospectionStateNumber>759</IntrospectionStateNumber>
+      <IntrospectionStateNumber>818</IntrospectionStateNumber>
       <ObjectId>16388</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -726,50 +725,50 @@ true posixrules
       <ObjectId>16389</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
-    <role id="5" parent="1" name="pg_database_owner">
+    <role id="5" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_create_subscription">
+      <ObjectId>6304</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_database_owner">
       <ObjectId>6171</ObjectId>
     </role>
-    <role id="6" parent="1" name="pg_read_all_data">
-      <ObjectId>6181</ObjectId>
+    <role id="8" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
     </role>
-    <role id="7" parent="1" name="pg_write_all_data">
-      <ObjectId>6182</ObjectId>
-    </role>
-    <role id="8" parent="1" name="pg_monitor">
+    <role id="9" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
       <RoleGrants>3374
 3375
 3377</RoleGrants>
     </role>
-    <role id="9" parent="1" name="pg_read_all_settings">
+    <role id="10" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
     </role>
-    <role id="10" parent="1" name="pg_read_all_stats">
+    <role id="12" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
     </role>
-    <role id="11" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
-    </role>
-    <role id="12" parent="1" name="pg_read_server_files">
+    <role id="13" parent="1" name="pg_read_server_files">
       <ObjectId>4569</ObjectId>
     </role>
-    <role id="13" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
-    </role>
-    <role id="14" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
-    </role>
-    <role id="15" parent="1" name="pg_signal_backend">
+    <role id="14" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
     </role>
-    <role id="16" parent="1" name="pg_checkpoint">
-      <ObjectId>4544</ObjectId>
+    <role id="15" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
     </role>
-    <role id="17" parent="1" name="pg_use_reserved_connections">
+    <role id="16" parent="1" name="pg_use_reserved_connections">
       <ObjectId>4550</ObjectId>
     </role>
-    <role id="18" parent="1" name="pg_create_subscription">
-      <ObjectId>6304</ObjectId>
+    <role id="17" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
+    </role>
+    <role id="18" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
     </role>
     <role id="19" parent="1" name="postgres">
       <BypassRls>1</BypassRls>
@@ -4141,7 +4140,6 @@ true posixrules
     <schema id="265" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>745</IntrospectionStateNumber>
       <LastIntrospectionLocalTimestamp>2024-10-11.10:35:46</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>523</StateNumber>
@@ -7490,7 +7488,6 @@ true posixrules
       <OwnerName>postgres</OwnerName>
     </schema>
     <schema id="508" parent="3" name="mypublic">
-      <IntrospectionStateNumber>753</IntrospectionStateNumber>
       <LastIntrospectionLocalTimestamp>2024-10-11.10:38:05</LastIntrospectionLocalTimestamp>
       <ObjectId>16390</ObjectId>
       <StateNumber>752</StateNumber>
@@ -7505,8 +7502,8 @@ true posixrules
     <schema id="510" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>759</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2024-10-11.14:01:04</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>818</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2024-10-13.13:43:28</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>523</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -7515,13 +7512,13 @@ true posixrules
       <ObjectId>16391</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>755</StateNumber>
+      <StateNumber>811</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="512" parent="510" name="todolist">
       <ObjectId>16392</ObjectId>
-      <StateNumber>755</StateNumber>
+      <StateNumber>817</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -7542,29 +7539,34 @@ true posixrules
       <TypeId>1043</TypeId>
     </column>
     <column id="515" parent="512" name="created_at">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StateNumber>755</StateNumber>
+      <Position>6</Position>
+      <StateNumber>804</StateNumber>
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
     <column id="516" parent="512" name="updated_at">
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-      <StateNumber>755</StateNumber>
+      <Position>7</Position>
+      <StateNumber>806</StateNumber>
       <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
-    <index id="517" parent="512" name="todolist_pkey">
+    <column id="517" parent="512" name="checked">
+      <DefaultExpression>false</DefaultExpression>
+      <Position>8</Position>
+      <StateNumber>817</StateNumber>
+      <StoredType>boolean|0s</StoredType>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="518" parent="512" name="todolist_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16396</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>755</StateNumber>
+      <StateNumber>811</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="518" parent="512" name="todolist_pkey">
+    <key id="519" parent="512" name="todolist_pkey">
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16397</ObjectId>
       <Primary>1</Primary>

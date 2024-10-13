@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f87554da-7cd5-4f0d-9667-5b377f77f183" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/app/list/newlist/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app/list/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/app/ui/NewList/NewList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb/storage_v2/_src_/database/todolist.5IXPsg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb/storage_v2/_src_/database/todolist.5IXPsg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app/ui/ContentCard/ContentCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/ui/ContentCard/ContentCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/cmd/handlers/handleList.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/cmd/handlers/handleList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/cmd/models/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/cmd/models/list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/cmd/repositories/listDb.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/cmd/repositories/listDb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/server/test.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/tmp/build-errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/tmp/build-errors.log" afterDir="false" />
@@ -28,6 +41,8 @@
       <list>
         <option value="HTTP Request" />
         <option value="Go File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -57,45 +72,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-24.04/home/han/Coding/project_ToDoList&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu-24.04@/home/han/.nvm/versions/node/v22.9.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl.localhost\\Ubuntu-24.04\\home\\han\\Coding\\project_ToDoList\\client\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl.localhost\\Ubuntu-24.04\\home\\han\\project_ToDoList\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "HTTP Request.test | #1.executor": "Run",
+    "HTTP Request.test | #2.executor": "Run",
+    "HTTP Request.test | #3.executor": "Run",
+    "HTTP Request.test | #4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-24.04/home/han/Coding/project_ToDoList",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Ubuntu-24.04@/home/han/.nvm/versions/node/v22.9.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\han\\Coding\\project_ToDoList\\client\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\han\\Coding\\project_ToDoList\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu-24.04\home\han\project_ToDoList\client\app\ui\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-24.04\home\han\Coding\project_ToDoList\client\app\list" />
       <recent name="\\wsl.localhost\Ubuntu-24.04\home\han\Coding\project_ToDoList\server\cmd" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.test | #3">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="project_ToDoList" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,9 +141,21 @@
     <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/server/test.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/server/test.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/server/test.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/server/test.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test | #3" />
+        <item itemvalue="HTTP Request.test | #4" />
         <item itemvalue="HTTP Request.test | #1" />
+        <item itemvalue="HTTP Request.test | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +183,10 @@
       <workItem from="1728641206291" duration="11396000" />
       <workItem from="1728702505221" duration="270000" />
       <workItem from="1728703652518" duration="1696000" />
+      <workItem from="1728705910716" duration="3402000" />
+      <workItem from="1728714918241" duration="1412000" />
+      <workItem from="1728718526110" duration="381000" />
+      <workItem from="1728803235927" duration="15604000" />
     </task>
     <servers />
   </component>

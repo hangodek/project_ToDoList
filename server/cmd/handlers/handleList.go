@@ -19,6 +19,14 @@ func CreateList(c echo.Context) error {
 	return c.JSON(http.StatusCreated, newList)
 }
 
+func ReadLists(c echo.Context) error {
+	lists, err := repositories.ReadLists()
+	if err != nil {
+		return c.JSON(http.StatusInternalServerError, err.Error())
+	}
+	return c.JSON(http.StatusOK, lists)
+}
+
 func UpdateList(c echo.Context) error {
 	id := c.Param("id")
 
@@ -44,9 +52,9 @@ func DeleteList(c echo.Context) error {
 		return c.JSON(http.StatusInternalServerError, err.Error())
 	}
 
-	_, err = repositories.DeleteList(idInt)
+	deletedId, err := repositories.DeleteList(idInt)
 	if err != nil {
 		return c.JSON(http.StatusInternalServerError, err.Error())
 	}
-	return c.JSON(http.StatusOK, map[string]int{"deleted_id": idInt})
+	return c.JSON(http.StatusOK, map[string]int{"deleted_id": deletedId})
 }

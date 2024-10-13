@@ -17,6 +17,29 @@ func CreateList(list models.List) (models.List, error) {
 	return list, err
 }
 
+func ReadLists() ([]models.List, error) {
+	db := storage.GetDB()
+
+	rows, err := db.Query("SELECT id, text, checked, created_at, updated_at FROM todolist")
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	lists := []models.List{}
+
+	for rows.Next() {
+		list := models.List{}
+		err := rows.Scan(&list.Id, &list.Text, &list.Checked, &list.CreatedAt, &list.UpdatedAt)
+		if err != nil {
+			return nil, err
+		}
+		lists = append(lists, list)
+	}
+
+	return lists, nil
+}
+
 func UpdateList(list models.List, id int) (models.List, error) {
 	db := storage.GetDB()
 	sqlStatement := `
@@ -34,10 +57,7 @@ func UpdateList(list models.List, id int) (models.List, error) {
 
 func DeleteList(id int) (int, error) {
 	db := storage.GetDB()
-	sqlStatement := `
-	DELETE FROM todolist
-	WHERE id = $1
-	RETURNING id`
+	sqlStatement := `DELETE FROM todolist WHERE id = $1 RETURNING id`
 	var deletedId int
 	err := db.QueryRow(sqlStatement, id).Scan(&deletedId)
 	if err != nil {
