@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f87554da-7cd5-4f0d-9667-5b377f77f183" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/app/list/newlist/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/list/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/app/ui/NewList/NewList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb/storage_v2/_src_/database/todolist.5IXPsg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d290434-8a64-4fdc-a711-c7df5342e9eb/storage_v2/_src_/database/todolist.5IXPsg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app/ui/ContentCard/ContentCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/app/ui/ContentCard/ContentCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/cmd/handlers/handleList.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/cmd/handlers/handleList.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/cmd/models/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/cmd/models/list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/cmd/repositories/listDb.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/cmd/repositories/listDb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/server/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/server/test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tmp/build-errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/tmp/build-errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tmp/main" beforeDir="false" afterPath="$PROJECT_DIR$/server/tmp/main" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +66,7 @@
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu-24.04/home/han/Coding/project_ToDoList",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu-24.04/home/han/learn_Typescript",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -186,7 +165,9 @@
       <workItem from="1728705910716" duration="3402000" />
       <workItem from="1728714918241" duration="1412000" />
       <workItem from="1728718526110" duration="381000" />
-      <workItem from="1728803235927" duration="15604000" />
+      <workItem from="1728803235927" duration="15698000" />
+      <workItem from="1728829653979" duration="645000" />
+      <workItem from="1728832680218" duration="51000" />
     </task>
     <servers />
   </component>
